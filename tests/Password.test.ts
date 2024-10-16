@@ -16,7 +16,7 @@ describe ("Test in password class", ()=> {
 
     //     expect(()=> {
     //         new Password("1234567");
-    //     }).toThrow("Password muy corto")
+    //     }).toThrow("el password debe tener un minimo de 8 caracteres")
     // });
     
     // it("The password gives error when it does not have any capital letter.", () => {
