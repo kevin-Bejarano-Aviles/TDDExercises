@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",   // O cualquier directorio de salida de tu preferencia
+    "rootDir": "./src",   // El directorio de tu código fuente
+    "types": ["jest"]     // Incluir los tipos de Jest
+  },
+  "include": ["src/**/*"], // Incluir todos los archivos dentro de 'src'
+  "exclude": ["node_modules"] // Excluir node_modules
+}
